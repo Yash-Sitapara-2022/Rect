@@ -1,0 +1,10 @@
+<script>
+    function multiplyByTwo(n,callback){
+        var result = n * 2;
+        callback(result);
+    }
+    function logResult(result){
+        document.write(result);
+    }
+    multiplyByTwo(5,logResult);
+</script>
